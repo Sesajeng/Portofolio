@@ -89,6 +89,13 @@ section {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   border-color: var(--main-color);
 }
+/* In your style.css file */
+.skill-box .custom-svg-icon {
+  width: 7rem; /* or your preferred size */
+  height: 7rem; /* or your preferred size */
+  object-fit: contain; /* This prevents the image from stretching */
+  transition: transform 0.5s;
+}
 
 /* Header Kartu: Logo dan Judul */
 .experience-card .card-header {
